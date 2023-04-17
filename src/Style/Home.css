@@ -1,0 +1,45 @@
+  /* Style de la section principale de la page */
+  main {
+    position: relative; /* Positionne la section principale de manière relative par rapport à son élément parent */
+    min-height: 100vh; /* Donne une hauteur minimale de 100% de la hauteur de la vue à la section principale */
+    padding-bottom: 100px; /* Ajoute un espace de 100 pixels en bas de la section principale pour éviter que le footer ne chevauche le contenu */
+  }
+
+.contenue {
+    background-color: #f5e4e1;
+    margin-top: 140px;
+    margin-right: 230px;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: black solid 2px;
+    border-radius: 37px;
+}
+
+.contenue .description {
+    width: 650px;
+    display: flex;
+    padding: 110px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.contenue img {
+    height: 800px;
+    border-radius: 200px 34px 34px 200px;
+    border: black solid 2px;
+}
+
+.contenue h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 6em;
+    margin: 0px;
+}
+
+ 
+ 
+  
+

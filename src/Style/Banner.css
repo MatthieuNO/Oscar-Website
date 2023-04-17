@@ -1,0 +1,40 @@
+header {
+  margin: auto;
+  background-color: white;
+  border-radius: 50px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 100px 0px 75px;
+  position: fixed; /* Rend la bannière toujours visible */
+  top: 0; /* Positionne la bannière en haut de la page */
+  left: 0; /* Positionne la bannière à gauche de la page */
+  right: 0; /* Positionne la bannière à droite de la page */
+  z-index: 999; /* Place la bannière en premier plan */
+}
+
+/* Style de l'image dans l'en-tête */
+header img {
+  height: 100px;
+}
+
+/* Style des liens dans les éléments de la liste */
+a {
+  text-decoration: none; /* Suppression de la décoration des liens */
+  color: black;
+}
+
+/* Style de la liste dans l'en-tête */
+header .list-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Style de la liste non ordonnée */
+.list-btn {
+  font-family: 'Cinzel', serif;
+  list-style: none;
+  width: 100%;
+  gap: 160px;
+}

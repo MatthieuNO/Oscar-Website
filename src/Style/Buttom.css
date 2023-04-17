@@ -1,0 +1,43 @@
+.winner-btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: black;
+    background: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+
+.winner-btn:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+ }
+  
+
+   /* Style des éléments de la liste */
+.banner-btn {
+    font-size: 1.4em;
+    text-decoration: none;
+    position: relative; /* Ajout de la position relative pour positionner les pseudo-éléments ::after */
+  }
+  
+  /* Style des pseudo-éléments ::after pour créer l'effet de soulignement */
+.banner-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%; /* Positionnement à 50% de la largeur de l'élément parent */
+    bottom: -5px; /* Positionnement en bas de l'élément parent */
+    transform: translateX(-50%); /* Déplacement de l'élément de 50% vers la gauche pour centrer */
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out; /* Transition de la largeur pour l'effet de soulignement */
+  }
+  
+  /* Style des pseudo-éléments ::after lorsque vous survolez les éléments */
+.banner-btn:hover::after {
+    width: 100%; /* Augmentation de la largeur pour créer l'effet de soulignement */
+  }
+    

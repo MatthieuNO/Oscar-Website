@@ -1,0 +1,34 @@
+/* Style du footer */
+footer {
+    display: flex; 
+    background-color: gainsboro; 
+    border-radius: 200px 200px 0px 0px; 
+    position: absolute; /* Positionne le footer de manière absolue par rapport à son élément parent */
+    bottom: 0; /* Positionne le footer en bas de son élément parent */
+    left: 0; /* Positionne le footer à gauche de son élément parent */
+    width: 100%; /* Donne une largeur de 100% au footer */
+  }
+  
+  ul h2 {
+    font-size: 1.8em;
+  }
+  
+  /* Style de la liste dans le footer */
+  footer ul {
+    width: 100%; 
+    list-style: none; /* Supprime les puces de la liste */
+    display: flex; 
+    justify-content: center; 
+    gap: 60px; 
+    align-items: center;
+  }
+  
+  footer ul li {
+    
+    font-size: 2.3em;
+  }
+  /* Style des images dans le footer */
+
+  
+
+  
